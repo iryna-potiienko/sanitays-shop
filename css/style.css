@@ -26,10 +26,10 @@ Table of Content:
 06/ feature
 07/ button
 08/ service
-09/ testimonials 
-10/ blog 
-11/ contact 
-12/ footer 
+09/ testimonials
+10/ blog
+11/ contact
+12/ footer
 =====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
@@ -491,6 +491,7 @@ i:before {
 
 .top_header_middle {
   text-align: center;
+  padding-top: 4px;
 }
 
 .top_header_middle a {
@@ -871,7 +872,8 @@ i:before {
 
 .carousel_menu_inner .navbar {
   padding: 20px 0px 20px 0px;
-  border-bottom: none;
+  /*border-bottom: none;*/
+  margin-bottom: 25px;
 }
 
 .carousel_menu_inner .navbar .navbar-brand {
@@ -908,6 +910,12 @@ i:before {
 .carousel_menu_inner .navbar .navbar-nav.justify-content-end li:hover a {
   border-color: #0b1033;
   color: #0b1033;
+}
+
+.carousel_menu_inner .navbar .navbar-nav.justify-content-end.nav-pills .nav-link.active {
+  border-color: #0b1033;
+  color: #0b1033;
+  background-color: white;
 }
 
 .cart_cart a {
@@ -5611,6 +5619,7 @@ i:before {
 ============================================================================================ */
 .l_widget {
   margin-bottom: 20px;
+  overflow: visible;
 }
 
 .l_widget:last-child {
@@ -5634,6 +5643,7 @@ i:before {
 .l_categories_widget ul {
   border-left: 1px solid #cccccc;
   border-right: 1px solid #cccccc;
+  overflow: visible;
 }
 
 .l_categories_widget ul li a {
@@ -5654,6 +5664,10 @@ i:before {
 .l_categories_widget ul li:hover a {
   color: #d91522;
 }
+
+/*l_categories_widget .dropdown-menu {
+  transform: none;
+}*/
 
 .l_supper_widget {
   position: relative;

@@ -12,7 +12,7 @@
     }
 }
 @media (max-width: 1230px){
-    
+
 }
 @media (max-width: 1199px){
     .top_right li.user {
@@ -38,7 +38,7 @@
         margin-left: 18px;
     }
     .shop_header_area .navbar .navbar-nav li {
-        margin-right: 15px; 
+        margin-right: 15px;
     }
     .l_p_text .add_cart_btn{
         padding: 0px 10px;
@@ -102,7 +102,7 @@
         font-size: 14px;
     }
     .cart_totals .checkout_btn {
-         margin-left: 0px; 
+         margin-left: 0px;
     }
     .total_amount_area .update_btn{
         margin-bottom: 20px;
@@ -118,7 +118,7 @@
     }
     .top_right_header{
         text-align: center;
-        clear: both; 
+        clear: both;
     }
     .top_right_header .header_social{
         margin-top: 0px;
@@ -183,7 +183,7 @@
         margin-bottom: -30px;
     }
     .p_list_img {
-        margin-left: 0px; 
+        margin-left: 0px;
     }
     .p_listing_inner .col-lg-4{
         margin-bottom: 30px;
@@ -211,8 +211,29 @@
         margin-bottom: 30px;
     }
     .shop_header_area .carousel_menu_inner .navbar .navbar-nav.justify-content-end{
-        display: none;
+       display: block;
+       /*float: left;*/
     }
+    .shop_header_area .carousel_menu_inner .navbar .navbar-nav.justify-content-end li{
+      float: left;
+    }
+
+    .search_icon {
+        font-size: 20px;
+        border: 1px solid #cccccc;
+        color: #333333;
+        text-align: center;
+        display: inline-block;
+        line-height: 48px;
+        padding: 0px 20px;
+
+
+    }
+    @include transition;
+    .search_icon i{
+        padding-left: 0px;
+    }
+
     .special_offer_item {
         max-width: 570px;
         margin: auto;
@@ -341,7 +362,7 @@
         margin-top: 50px;
     }
     .total_amount_area .update_btn {
-        margin-bottom: 0px; 
+        margin-bottom: 0px;
     }
     .cart_totals .checkout_btn {
         margin-left: 25px;
@@ -427,7 +448,7 @@
     .showing_fillter .first_fillter {
         flex: 0 0 50%;
         max-width: 50%;
-        
+
     }
     .showing_fillter .secand_fillter {
         flex: 0 0 50%;
@@ -467,11 +488,18 @@
         white-space: nowrap;
     }
     .cart_items .table tbody tr td .quantity {
-        width: 165px;
+        /*width: 165px;*/
+        width: 75px;
     }
     .cart_items .table tbody tr td .media .media-body h4 {
-        white-space: nowrap;
+      /*  white-space: nowrap;*/
     }
+
+    .cart_items .table tbody tr td .media .d-flex {
+        padding-right: 15px;
+    }
+
+
     .main_slider_area #main_slider ul li .slider_text_box .secand_text {
         text-align: center !important;
         color: #d91522;
@@ -529,16 +557,21 @@
     .top_header_middle a {
         display: block;
         line-height: 26px;
-        display: none;
+        /*display: none;*/
+    }
+    .top_header_middle a:before{
+      display: none;
     }
     .top_right_header {
-        display: none;
+      /*display: block;
+      /*  display: none;*/
     }
     .top_header_left .selector {
-        display: none;
+
+        /*display: none;*/
     }
     .usd_select.bootstrap-select {
-        display: none !important;
+      /*  display: none !important;*/
     }
     .l_product_item {
         max-width: 270px;
@@ -553,7 +586,8 @@
         padding-bottom: 25px;
     }
     .carousel_top_header{
-        display: none;
+        display: block;
+        /*display: none;*/
     }
     .from_blog_item {
         max-width: 370px;
@@ -593,8 +627,8 @@
     }
     .best_summer_banner img{
         max-width: none;
-        
-    }   
+
+    }
     .footer_social li {
         margin-left: 8px;
     }
@@ -669,5 +703,5 @@
         border-top: 1px solid #bdbdbd;
         padding: 20px 0px 0px 0px;
     }
-    
+
 }
