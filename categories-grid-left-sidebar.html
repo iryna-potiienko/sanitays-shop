@@ -229,11 +229,17 @@
                     <div class="row row_disable">
                         <div class="col-lg-3 float-md-left">
                           <div class="categories_sidebar">
-                              <aside class="l_widgest l_p_categories_widget">
+                              <aside class="l_widgest l_p_categories_widget dropdown">
+                                <a class="dropdown-toggle" id="categoriesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                   <div class="l_w_title">
                                       <h3>Категории</h3>
                                   </div>
-                                  <ul class="navbar-nav">
+                                <!--  <span class="caret"></span>-->
+                                </a>
+                                <!--  <div class="l_w_title">
+                                      <h3>Категории</h3>
+                                  </div>-->
+                                  <ul class="navbar-nav dropdown-menu" aria-labelledby="categoriesDropdown">
                                       <li class="nav-item">
                                           <a class="nav-link" href="#">Men’s Fashion
                                               <i class="icon_plus" aria-hidden="true"></i>

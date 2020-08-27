@@ -5987,6 +5987,17 @@ i:before {
   border-bottom: 0px;
 }
 
+.l_p_categories_widget.dropdown .dropdown-menu {
+  position: relative !important;
+  top: 0px !important;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  -webkit-transform: translate3d(0px, 0px, 0px) !important;
+  transform: translate3d(0px, 0px, 0px) !important;
+  border: none;
+}
+
 .l_fillter_widget label {
   font-size: 13px;
   font-family: "Poppins", sans-serif;
