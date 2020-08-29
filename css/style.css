@@ -104,7 +104,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .p_80 {
-  padding: 80px 0px;
+  padding: 30px 0px;
 }
 
 iframe {
@@ -5899,7 +5899,7 @@ i:before {
 }
 
 .l_widgest:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .l_w_title {

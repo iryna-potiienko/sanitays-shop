@@ -531,6 +531,13 @@
         height: 100%;
         width: 100%;
     }
+
+    .p_80{
+      padding: 0px;
+    }
+    .row_disable{
+      overflow: visible;
+    }
 }
 @media (max-width: 600px){
     .parallax_style_one h4 {
