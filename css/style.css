@@ -6258,11 +6258,15 @@ i:before {
 
 .showing_fillter .secand_fillter {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 26%;
-  flex: 0 0 26%;
-  max-width: 26%;
+  /*-ms-flex: 0 0 26%;
+  /*flex: 0 0 26%;
+  max-width: 26%;*/
+  -ms-flex: 0 0 69%;
+  flex: 0 0 69%;
+  max-width: 69%;
+  text-align: end;
   position: relative;
-  top: -3px;
+  top: -7px;
 }
 
 .showing_fillter .secand_fillter h4 {

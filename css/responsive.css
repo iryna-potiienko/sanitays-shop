@@ -652,7 +652,7 @@
     }
     .showing_fillter .secand_fillter {
         flex: none;
-        max-width: 100%;
+      /*  max-width: 100%;*/
         text-align: left;
     }
     .showing_fillter .third_fillter {
@@ -711,4 +711,7 @@
         padding: 20px 0px 0px 0px;
     }
 
+    .showing_fillter .secand_fillter{
+      max-width: 86%;
+    }
 }
