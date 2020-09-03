@@ -103,7 +103,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding: 100px 0px;
 }
 
-.p_80 {
+.padding {
   padding: 30px 0px;
 }
 
@@ -3382,7 +3382,7 @@ i:before {
 /* Product Details Slider Area css
 ============================================================================================ */
 .product_details_area {
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 .product_details_slider .tp-thumbs {
@@ -4489,11 +4489,12 @@ i:before {
 }
 
 .cart_items .table tbody tr td .red {
-  color: #d91522;
+  /*color: #d91522;*/
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  text-align: left;
+  /*font-size: 14px;
+  /*text-align: left;*/
+    font-size: large;
 }
 
 .cart_items .table tbody tr td p {

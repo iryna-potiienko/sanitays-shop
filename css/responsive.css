@@ -1,3 +1,8 @@
+@media(min-width: 427px){
+  .red{
+    display: none;
+  }
+}
 @media (max-width: 1300px){
     .home_left_main_area .left_menu {
         display: none;
@@ -10,6 +15,9 @@
     .shop_header_area.fixed_tb_menu {
         display: block;
     }
+  /*  .red{
+      display: none;
+    }*/
 }
 @media (max-width: 1230px){
 
@@ -532,7 +540,7 @@
         width: 100%;
     }
 
-    .p_80{
+    .padding{
       padding: 0px;
     }
     .row_disable{
@@ -615,9 +623,10 @@
     }
 }
 @media (max-width: 480px){
-    .shop_header_area .navbar .navbar-brand img{
-        max-width: 75%;
-    }
+    /*.shop_header_area .navbar .navbar-brand img{
+      /*  max-width: 75%;
+        max-width: 145px;
+    }*/
     .l_product_slider .l_product_slider, .l_product_slider .home_l_product_slider, .home_l_product_slider .l_product_slider, .home_l_product_slider .home_l_product_slider {
         position: relative;
         right: 0px;
@@ -689,7 +698,36 @@
         display: none !important;
     }
 }
+@media(max-width: 427px){
+  .cart_items .table tbody tr td.price{
+    display: none;
+  }
+  .red{
+    display: block;
+    margin-right: 40px;
+    margin-left: 55px;
+  }
+}
+@media (max-width: 427px){
+  .shop_header_area .navbar .navbar-brand img{
+    /*  max-width: 75%; */
+      max-width: 145px;
+  }
+  .quantity .custom input {
+      width: 100%;
+  }
+  .quantity .add_cart_btn {
+      display: block;
+      text-align: center;
+      margin-left: 0px;
+      margin-top: 20px;
+  }
+}
+
 @media (max-width: 360px){
+  /*  .shop_header_area .navbar .navbar-brand img{
+      max-width: 100%;
+    }*/
     .product_details_text .p_rating {
         display: block;
     }
@@ -697,7 +735,7 @@
         display: block;
         padding-left: 0px;
     }
-    .quantity .custom input {
+  /*  .quantity .custom input {
         width: 100%;
     }
     .quantity .add_cart_btn {
@@ -705,7 +743,7 @@
         text-align: center;
         margin-left: 0px;
         margin-top: 20px;
-    }
+    }*/
     .payment_list .price_single_cost {
         border-top: 1px solid #bdbdbd;
         padding: 20px 0px 0px 0px;
@@ -713,5 +751,9 @@
 
     .showing_fillter .secand_fillter{
       max-width: 86%;
+    }
+    .red{
+      margin-left: 20px;
+      margin-right: 20px;
     }
 }
