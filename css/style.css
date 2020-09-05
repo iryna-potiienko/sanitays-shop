@@ -6770,6 +6770,11 @@ i:before {
   color: #d91522;
 }
 
+.link_widget{
+  margin-right: 40px;
+  text-align: end;
+}
+
 .f_extra_widget {
   padding-left: 30px;
 }

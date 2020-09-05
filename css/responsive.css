@@ -378,6 +378,9 @@
     .cart_totals_area {
         margin-top: 50px;
     }
+    .link_widget{
+      margin: auto;
+    }
 }
 @media (max-width: 799px){
     .home_carousel_slider .h_carousel_item .carousel_hover {
@@ -620,6 +623,9 @@
     .home_sidebar_blog .single_title {
         text-align: center;
         padding-top: 35px;
+    }
+    .link_widget{
+      text-align: center;
     }
 }
 @media (max-width: 480px){
